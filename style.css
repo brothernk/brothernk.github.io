@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+body {
+   margin:0 auto;
+   text-align: center;
+   background-color: #713E5A;
+   color:white;
+}
+
+h1 {
+    font: 70px "Montserrat";
+}
+
+p {
+    font:14px "Open Sans";
+    max-width: 500px;
+    margin:0 auto;
+    padding-bottom:50px;
+}
+
+a {
+    font: 15px "Montserrat";  
+    text-decoration: none;
+    color:#713E5A;
+}
+
+i {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+a:hover i{
+    background-color:grey;
+    transition: .25s;
+}
